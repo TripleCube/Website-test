@@ -1,3 +1,54 @@
+/* Meeting 01 Start */
+h1 {
+  color: whitesmoke;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-align: center;
+}
+
+p {
+  font-style: italic;
+}
+
+/* img {
+  aspect-ratio: 16/9;
+  width: 50%;
+} */
+
+/* Meeting 01 End */
+
+/* Meeting 02 Start */
+
+/* membuat navbar vertical */
+/* nav {
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: block;
+  background-color:rgb(151, 153, 153);
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 4px;
+}
+a:hover {
+  background-color: burlywood;
+} */
+
+/* membuat navbar horizontal */
+
+/* body {
+  margin-top: 10%;
+} */
+
 nav {
   position: absolute;
   right: 0;
@@ -6,21 +57,16 @@ nav {
 
 a {
   text-decoration: none;
-  color: lightcoral;
+  color: rgb(219, 84, 75);
   padding: 15px;
   float: left;
 }
-
 a:hover {
   background-color: burlywood;
 }
 
-body {
-  margin-top: 10%;
-}
-
 .main-header {
-  background-color: lightcyan;
+  background-color: rgb(245, 235, 220);
   padding-left: 10px;
   position: fixed;
   top: 0px;
@@ -28,7 +74,6 @@ body {
   right: 0px;
   height: 50px;
 }
-
 .header-info {
   text-align: left;
   color: rgb(219, 84, 75);
@@ -38,42 +83,9 @@ body {
   left: 0px;
 }
 
-* {
-  color: #87c641;
-  border-color: #87c641;
-  font-family: "Roboto", sans-serif;
-}
+/* Meeting 02 End */
 
-h1 {
-  font-size: x-large;
-  width: full;
-  height: auto;
-}
-
-body {
-  background-color: #fffff7;
-}
-
-.center {
-  text-align: center;
-}
-
-.fancy {
-  text-shadow: 2px 2px 3px green;
-}
-
-img {
-  width: 300px;
-  height: 400px;
-  border-radius: 40px;
-  border: #87c641 5px solid;
-}
-
-h2 {
-  font-family: "Courier New", Courier, monospace;
-  font-style: italic;
-}
-
+/* Meeting 03 Start */
 ul {
   list-style-type: none;
   padding: 0;
@@ -105,7 +117,9 @@ li.dropdown-item:hover a.dropdown-item {
   text-align: left;
   color: gainsboro;
 }
+/* Meeting 03 End */
 
+/* Meeting 04 Start */
 .items {
   display: flex;
   justify-content: center;
@@ -124,9 +138,21 @@ li.dropdown-item:hover a.dropdown-item {
 p {
   text-align: center;
   padding: 5px;
-  color: #ffa117;
+  color: steelblue;
 }
 
+img.hero {
+  aspect-ratio: 16/9;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+
+/* Meeting 04 End */
+
+/* Meeting 05 Start */
 div.about {
   display: flex;
   justify-content: center;
@@ -139,7 +165,7 @@ div.about {
 }
 .about {
   text-align: left;
-  color: #321820;
+  color: black;
   padding: 10px;
   width: 100%;
 }
@@ -151,3 +177,63 @@ img.about-us {
   max-width: 100%;
   max-height: 100%;
 }
+/* Meeting 05 End */
+
+/* Meeting 06 Start */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.tab {
+  background-color: gainsboro;
+  width: 400px;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 20px;
+}
+h1.name {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+h2.price {
+  font-size: 38px;
+  color: black;
+}
+.list {
+  list-style-type: disc;
+  margin-bottom: 50px;
+  text-align: left;
+}
+.list li {
+  margin-top: 20px;
+  color: black;
+}
+hr {
+  height: 7px;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(219, 84, 75);
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: rgba(219, 85, 75, 0.616);
+  border-radius: 8px;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 20pt;
+}
+button:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(219, 85, 75);
+}
+
+/* Meeting 06 End */
