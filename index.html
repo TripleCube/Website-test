@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ban</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <header>
       <div class="main-header">
         <h3 class="header-info">Toko Ban Tire Shop</h3>
         
-
         <nav>
           <div class="dropdown">
             <div>
@@ -35,8 +35,8 @@
         </nav>
       </div>
     </header>
-    <main class="center">
-      <div>
+    <main>
+      <div  >
         <h1>Toko Ban Tire Shop</h1>
         <h2>Roda-roda berkualitas!</h2>
         <img class="center" src="https://img.freepik.com/premium-vector/tire-shop-logo-design-automotive-wheel-tire-truck-mud-off-road-silhouette_171487-527.jpg" alt="produk jualan" />
@@ -57,7 +57,8 @@
             />
             <h3>Ban Mobil</h3>
             <p>IDR 150.000</p>
-            <button>Pesan</button>
+            <button onclick="location.href='http://www.example.com'" type="button">
+              Pesan</button>
           </div>
           <div class="item">
             <img
@@ -68,7 +69,8 @@
             />
             <h3>Ban Truk</h3>
             <p>IDR 150.000</p>
-            <button>Pesan</button>
+            <button onclick="location.href='https://feathericons.com/'" type="button">
+              Pesan</button>
           </div>
           <div class="item">
             <img
@@ -79,7 +81,8 @@
             />
             <h3>Ban Sepeda</h3>
             <p>IDR 150.000</p>
-            <button>Pesan</button>
+            <button onclick="location.href='https://youtu.be/DSG53BsUYd0'" type="button">
+              Pesan</button>
           </div>
         </div>
       </section>
@@ -92,6 +95,31 @@
       </section>
 
     </main>
-    <footer></footer>
+    <footer>
+      <div class="center-footer">
+        <div class="main-footer">
+          <div class="left-footer">
+            <h3 class="info-left">
+              <b> <i data-feather="chevrons-right"></i>Address </b>
+            </h3>
+            <p class="info-left">Jl Kb Jeruk III/25, DKI Jakarta</p>
+          </div>
+          <div class="right-footer">
+            <h3 class="info-right"><b>Contacts </b></h3>
+            <p class="info-right">Phone: 0246714549 </p>
+            <p class="info-right">Instagram : @tireshop</p>
+          </div>
+        </div>
+
+        <div class="main-footer">
+          <p class="info-center">
+            Copyright &copy; 2021 Tire Shop
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      feather.replace()
+    </script>
   </body>
 </html>
